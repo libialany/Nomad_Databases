@@ -33,3 +33,8 @@ verify your ip:
 `psql postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${NAME_CONTAINER_DATABASE}.${DOMAIN}/${POSTGRES_DB_NAME}?sslmode=require`
 
 > IMPORTANT: Setting sslmode=require for Traefik configuration. Without this setting, Traefik may function solely as a load balancer, the isolation of databases with sslmode=require.
+
+
+the result!
+
+![:)](./imgs/postgres.png)
